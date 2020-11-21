@@ -57,7 +57,7 @@ public class GaleriActivity extends AppCompatActivity {
 
     private void tampilkanProfil() {
         Hewan k = hewans.get(indeksTampil);
-        Log.d("ANJING","Menampilkan anjing "+k.getJenis());
+        Log.d("ANJING","Menampilkan_anjing "+k.getJenis());
         txJenis.setText(k.getJenis());
         txRas.setText(k.getRas());
         txAsal.setText(k.getAsal());
